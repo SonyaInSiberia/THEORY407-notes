@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1664330320 "/Users/carsonzhang/Desktop/F22/THEORY407/meeting/note.tex" "note.pdf" "note" 1664330321
-  "/Users/carsonzhang/Desktop/F22/THEORY407/meeting/note.tex" 1664330319 2812 02c25a7746e71f1d560d6710b49f9beb ""
+["pdflatex"] 1664858758 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" "note.pdf" "note" 1664858759
+  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" 1664330319 2812 02c25a7746e71f1d560d6710b49f9beb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1136768653 1616 371d1ee60c04b008c8fd760060cd34f1 ""
@@ -107,10 +107,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1663610703 2826442 e413571ada45b9d75fac65637d910250 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "note.aux" 1664330321 802 3d9654b7dc8b7ff6204ad5da9a592ba0 "pdflatex"
-  "note.out" 1664330321 35 9534070c232aa0a3f935cb7c3e3f8d46 "pdflatex"
+  "note.aux" 1664858759 802 3d9654b7dc8b7ff6204ad5da9a592ba0 "pdflatex"
+  "note.out" 1664858759 35 9534070c232aa0a3f935cb7c3e3f8d46 "pdflatex"
   "note.tex" 1664330319 2812 02c25a7746e71f1d560d6710b49f9beb ""
-  "note.toc" 1664330321 75 2879c5ab08d24b4dfe8d84df5ebfb49b "pdflatex"
+  "note.toc" 1664858759 75 2879c5ab08d24b4dfe8d84df5ebfb49b "pdflatex"
   (generated)
   "note.aux"
   "note.log"

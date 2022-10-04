@@ -1,8 +1,8 @@
-PWD /Users/carsonzhang/Desktop/F22/THEORY407/meeting
+PWD /Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/carsonzhang/Desktop/F22/THEORY407/meeting/note.tex
+INPUT /Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex
 OUTPUT note.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
