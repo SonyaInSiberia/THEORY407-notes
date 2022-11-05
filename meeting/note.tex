@@ -64,4 +64,54 @@ goal is also simple: output a "similarity score" for two pieces.
     \item Tymoczko, \emph{Geometry of Musical Chords} \textbf{Chapters *} 
 \end{itemize}
 
+\section*{\datesec{2022-11-4}{}}
+\paragraph*{Test on modal music}
+The Krumhansl-Schmuckler was tested on Bartok's \emph{14 Bagatelles Op.47 No.1}. The
+algorithm regonized the right hand part as in E major/C\# minor, but ignored
+the entire left hand in C Locrian/G Lydian. This is expected, since
+the algorithm only outputs one key given all notes in the piece and 
+it seems like notes in the left hand sums up to a less duration than
+the right hand. So the KS algorithm put more weights in right hand than the
+left. 
+\\Link to a playable score:\url{https://musescore.com/user/4887176/scores/6403822}
+\subparagraph*{Potential Solution}
+We might do twice for the treble and bass clef seperately(limited to piano),
+and then see if the two keys are the same. If they are, then we can say the
+piece is in one key. 
+\subparagraph*{Question}
+How do we determine whether we should talk about keys seperately?
+
+\paragraph*{Set-Class Similarity and Fourier Transform by Tymoczko}
+Fourier transform assign two-dimensional vector whose components are:
+\[V_{p,n}=(\cos(2\pi pn/12), \sin(2\pi pn/12))\]
+Where for integer $n$ from $0$ to $6$ and $p$ in $\{0...11\}$ is the pitches
+in a chord. Each fourier component is the sum of all such component:
+\[n\text{th Fourier Component}=\sum_{p\in v}V_{p,n}\]
+\begin{itemize}
+    \item Voice leading and set-class similarity. Steps
+    to find the minimal Euclidean voice leading between two n-note 
+    multiset-classes $A$ and $B$:
+        \begin{itemize}
+            \item Choose a representative (prime form?) of $A$ calculate 
+            the sum of its pitch classes.
+            \item Find the $n$ (12/n semitones for each) 
+            transpositions of $B$ with the same sum.
+            \item For each of the transposition, calculate the $L_2$
+            norm of $A$ and the vector. Do the same for inversions.
+            \item Take the minimum of these $2n^2$ numbers and output the 
+            result.
+        \end{itemize}
+    \item Fourier Magnitude
+        \begin{itemize}
+            \item In a set class space constructed by pitches of some 
+            perfectly even $n$-note chord, $n\in\{1...6\}$. Note the $n$-note
+            chord means the chord even seperate the $12$ tone equal 
+            temperament pitches. 
+            \item The $n$th Fourier component of a chord will decrease 
+            as pitches move away from the subset of pitches in $n$ notes 
+            chord. 
+            
+        \end{itemize}
+\end{itemize}
+
 \end{document}
