@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1667773602 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" "note.pdf" "note" 1667773604
-  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" 1667773602 8386 eb7c957babeb8eb8f35ba93f1d7d4661 ""
+["pdflatex"] 1667775066 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" "note.pdf" "note" 1667775067
+  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" 1667775065 8554 a8cdd3636aba0125db4956c47b487b8d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -123,10 +123,10 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "images//Tymoczko_1.png" 1667768019 391506 dcbccfb65cfa758dd17dbe56f5ee5d2e ""
   "images//Tymoczko_2.png" 1667768963 465977 f17df35fb8d8d9dd934bbb019f62d072 ""
-  "note.aux" 1667773603 918 0f7f307da22fea1ba112334e0c530e38 "pdflatex"
-  "note.out" 1667773603 70 c4a78932a39e3ca429ca63f6ca31738e "pdflatex"
-  "note.tex" 1667773602 8386 eb7c957babeb8eb8f35ba93f1d7d4661 ""
-  "note.toc" 1667773603 150 b4db668e6928eee62cda236cc96ffb49 "pdflatex"
+  "note.aux" 1667775067 918 0f7f307da22fea1ba112334e0c530e38 "pdflatex"
+  "note.out" 1667775067 70 c4a78932a39e3ca429ca63f6ca31738e "pdflatex"
+  "note.tex" 1667775065 8554 a8cdd3636aba0125db4956c47b487b8d ""
+  "note.toc" 1667775067 150 b4db668e6928eee62cda236cc96ffb49 "pdflatex"
   (generated)
   "note.aux"
   "note.log"
