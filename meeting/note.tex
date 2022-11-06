@@ -6,6 +6,7 @@
 \RequirePackage{graphicx}
 \RequirePackage[useregional]{datetime2}
 \RequirePackage{hyperref}
+\graphicspath{ {images/} }
 %===================================================
 \renewcommand{\maketitle}{
 \hrule height 1pt
@@ -107,11 +108,61 @@ in a chord. Each fourier component is the sum of all such component:
             perfectly even $n$-note chord, $n\in\{1...6\}$. Note the $n$-note
             chord means the chord even seperate the $12$ tone equal 
             temperament pitches. 
-            \item The $n$th Fourier component of a chord will decrease 
+            \item Given a $x$-note set-class space, the $n$th Fourier component of a chord will decrease 
             as pitches move away from the subset of pitches in $n$ notes 
-            chord. 
-            
+            chord. Illustrated below:
+            \begin{figure}[h]
+                \includegraphics[scale=0.5]{Tymoczko_1.png}
+            \end{figure}
+            \item We can use a linear equation to estimate the $n$-th
+            Fourier component of chord given the \emph{minimal voice leading
+            } to the nearest doubled subset(VL). This means there is a 
+            close relationship between FC and the minimal Euclidean distance 
+            between two chords.
+            \item 2 analysis procedure below:
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.5]{Tymoczko_2.png}
+            \end{figure}
+            \item The analogy of minimal voice leading on 
+            a pitch class circle is: as the Fourier Component increases
+            (which is the sum of all vectors), the minal voice leading decreases.
+            \item FC6 is the difference absolute value of difference between 
+            the number of a chord's notes in one whole tone scale and the nuber 
+            of its notes in the other ($[0,2,4,6,8,10],[1,3,5,7,9,11]$).
         \end{itemize}
 \end{itemize}
-
+\paragraph*{Reflectiond and Questions}
+\begin{enumerate}
+    \item Both Temperley and Tymoczko are trying to find the 
+    similarity in terms of "fitness" to a certain pitch set class.
+    In Temperley's case, it is the fitness to major and minor scale,
+    while in Tymoczko's case, it is the fitness to a certainn evenly distributed
+    $12/n$-notes chord. 
+    \item What is the purpose of doing this? For Tymoczko, maybe it is
+    demonstrating certian piece confirms such minimal voice leading motion?
+    \\\url{http://dmitri.mycpanel.princeton.edu/ChordGeometries.html}
+    \item So it seems like the notion of "motion"(no puns intended) here is
+    important, how should we show such motion and make analysis upon it?
+\end{enumerate}
+\paragraph*{A proposed struture to show such motions}
+This is only a speculative model to show such motions in terms of
+intervals through time. Fix certain time untis and a pitch class space
+($k$-euqal temperament) we can represent a piece of music as intervals
+between notes in the same voice through time. For each voice,
+if the piece alst for $m$ time units, there would be a 
+1D array of size $m-1$ where the each entry of the array is the
+interval between the pitches $n_i, n_{i+1}$ on time $i, i+1$. We 
+can also counts the intervals between all voices on the same time
+(Lewin's $\mathsf{IFUNC}$) and utilize his Fourier test for further
+analysis. Given a proper time unit, we can also represent a "segment"
+of notes by finding the closest "evenly distributed pitch class set"(Tymoczko's)
+and then do analysis in terms of these summarized segments in correspondence
+with the notion of "notes, phrase, section, passage".
+\paragraph*{Questions}
+\begin{enumerate}
+    \item How do we determine a proper time unit?
+    \item What kind of analysis shall we use for the horizontal interval vectors?
+    \item This is most suitable for piano/counterpoint, what about other instruments?
+\end{enumerate}
 \end{document}

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1667615933 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" "note.pdf" "note" 1667615934
-  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" 1667615933 5300 3123cf6f93e2d1cd001164b6c5c29ac3 ""
+["pdflatex"] 1667773602 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" "note.pdf" "note" 1667773604
+  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/meeting/note.tex" 1667773602 8386 eb7c957babeb8eb8f35ba93f1d7d4661 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -25,6 +25,8 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1136768653 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1136768653 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
@@ -34,6 +36,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1248133631 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
@@ -118,10 +121,12 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1663610703 2826442 e413571ada45b9d75fac65637d910250 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "note.aux" 1667615934 918 63c2ccb7f64937fe80b5f66512c50475 "pdflatex"
-  "note.out" 1667615934 70 c4a78932a39e3ca429ca63f6ca31738e "pdflatex"
-  "note.tex" 1667615933 5300 3123cf6f93e2d1cd001164b6c5c29ac3 ""
-  "note.toc" 1667615934 150 b4db668e6928eee62cda236cc96ffb49 "pdflatex"
+  "images//Tymoczko_1.png" 1667768019 391506 dcbccfb65cfa758dd17dbe56f5ee5d2e ""
+  "images//Tymoczko_2.png" 1667768963 465977 f17df35fb8d8d9dd934bbb019f62d072 ""
+  "note.aux" 1667773603 918 0f7f307da22fea1ba112334e0c530e38 "pdflatex"
+  "note.out" 1667773603 70 c4a78932a39e3ca429ca63f6ca31738e "pdflatex"
+  "note.tex" 1667773602 8386 eb7c957babeb8eb8f35ba93f1d7d4661 ""
+  "note.toc" 1667773603 150 b4db668e6928eee62cda236cc96ffb49 "pdflatex"
   (generated)
   "note.aux"
   "note.log"
