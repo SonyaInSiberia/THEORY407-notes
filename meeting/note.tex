@@ -171,4 +171,40 @@ with the notion of "notes, phrase, section, passage".
     \item Issacson's The Interval Angle
     \item Yust's Set Theory
 \end{itemize}
+
+\section*{\datesec{2022-11-27}{}}
+\paragraph*{Yust's Set Theory}
+Introduced Fourier componenets and phase spaces. 
+\begin{itemize}
+    \item \textbf{n Phase Space}: A circle evenly divided by $n$ interval(in the context of 12-equal temperament).
+    \item \textbf{Fourier Component}: See summarization for Tymoczko's paper.
+\end{itemize}
+The process is similar to DFT, which can be seen as a matrix multiplication written as:
+\[F_k=\frac{1}{n}\sum_{j=0}^{n-1}e^{-2\pi i\frac{jk}{n}}\]
+Where $F_n$ is the $n$-th Fourier component, $k$ is the pitch class, and $n=12$. Or, more generally:
+$\hat{f_k}=[[\mathsf{DFT}]]\cdot f_k$. Think of the process as matrix multiplication.
+Different phase space reveals different properties of music. $Ph_5$ indicates 
+the a set's affinity toward diatonic collection. Each $6$ phase space approximates:
+\begin{enumerate}
+    \item chromaticism
+    \item quartal harmony?(not sure what this means)
+    \item hexatonicity
+    \item octatonicity
+    \item diatonicity
+    \item whole-tone quality.
+\end{enumerate}
+\emph{Scale Theory? Eveness? Might need more explanation.}
+We can also use DFT to calculate the common tones of two sets. 
+\[\frac{1}{12}\sum_{n=0}^{11}|f_n(A)||f_n(B)|cos(\phi_n(A)-\phi_n(B))\].Intuitively,
+common tones will show harmonic closeness. Another aspect in the common tone analysis
+is the "wormhole" effect. Which is simply apply analysis in two phase spaces.
+
+\paragraph*{Questions}
+\begin{itemize}
+    \item What can I do for DFT in the interval space?
+    \item Since DFT can be seen as a matrix operation, what does the eigen value of a DFT matrix show?
+    \item Structure for my writing toward the end of calss?
+\end{itemize}
+\paragraph*{Will Read:}
+Isaacson's The Interval Angle
 \end{document}
