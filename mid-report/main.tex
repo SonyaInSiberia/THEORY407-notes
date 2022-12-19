@@ -115,8 +115,59 @@ Like cosine similarity, we might want to talk about the similiarity between
 two set classes in terms of the difference between them, or the minimum movement
 required for one to become the other, this is called voice leading. Dimitri Tymoszko
 showed a new method of analyzing the voice leading distance using Discrete Fourier Transform.
-The n-th Fourier component is (probably) inversly related to perfect even
+The n-th Fourier component is (probably) inversly related to perfectly even
 n note set class (chord). 
+\paragraph*{Voice Leading Distance}
+Between two n-note set classes $A$ and $B$, the minimal Euclidean voice leading 
+distance can be founded as such:
+\begin{enumerate}
+    \item Find the prime form of $A$, the sum the its pitch classes is $m$.
+    \item Find n transposition of B that sum up to $m$.
+    \item For each transposition, find the minimal $l_2$ distance between 
+    prome form of $A$ and circular permutations (permuation with same ordering)
+    of transpositions. Do the same for all n inversions of B (?).
+    \item The minimal distance within $2n^2$ numbers is the voice leading distance.
+\end{enumerate}
+\paragraph*{Discrete Fourier Transform}
+The DFT of a set class can be written as:
+\[\sum_p (\cos 2\pi pn/12, \sin 2\pi pn/12)\].
+For $n\in \{1,2,3,4,5,6\}$, each nth Fourier component is the sum above.
+The paper has showed, DFT converts the set class in a "reduced" circle with 
+$12/n$ circumference. Each pitch in the set class is represented by a point
+on the circle. The sum would be vector sum of all the points. If the pitch 
+class lies closely to the set represneted by the perfectly even $n$-notes chord,
+the vector will be close to the $0$ point. Thus the larger the magnitude of the
+sum of the $n$-th Fourier component, the less movement is required in voice 
+leading to the perfect $n$-note chord. Thus they form a inverse relationship.
+Jason Yust , in his paper, gave another way of interpreting the DFT in terms of 
+phase spaces and the vector in the phase spaces represented by pitch set class. Phase space $1$ to $6$
+are all cicles with $12$ units of circumference. Phase space $1$ is the pitch class
+circle, and other phase spaces can be obtained by multiply by $2,3,4,5,6$. They are
+all "superimposition" of the first phase space. Any pitch class set can be taken as
+the "circular average" of each pitch inside.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{ph_s.png}
+    \caption{Phase Space}
+\end{figure}
+The process is actually reversible using a more general form of DFT:
+\[f_n = \sum_{j=0}^{m} p_i e^{i2\pi jn/m}\frac{1}{m}\], given a full DFT
+of a set class by summing up all 12 components, we can find the set class 
+by applying the IDFT (inverse DFT process). According to Yust, 
+"We can think of the DFT, then, as a way of converting between two 
+representations of the same object. One is the raw pitch-class vector, 
+which simply tells us how much of each pitch class is present. 
+The other, the DFT, represents the pcset (or multiset) as a sum of 
+periodic functions." Each component is simply a periodic function of
+the phase space. 
+\section*{Application}
+Another interesting property of the Fourier component is each of them 
+represents a typical harmonic quality (scales). According to Yust, "
+which we may describe as (1)chromaticism (2) quartal quality, 
+(3) hexatonicity, (4) octatonicity, (5) diatonicity, (6) whole-tone."
+Since $f_n$ is large when the set class has a small voice leading distance 
+to the perfect $n$-note chord, we can use the DFT to apply harmonic analysis
+on separate voices. 
 \begin{thebibliography}{9}
 
 \bibitem{Temperley}

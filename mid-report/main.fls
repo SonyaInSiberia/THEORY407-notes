@@ -1283,6 +1283,14 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT ./images//ph_s.png
+INPUT ./images//ph_s.png
+INPUT images//ph_s.png
+INPUT ./images//ph_s.png
+INPUT ./images//ph_s.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newpx/zplmia.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/pxmiaX.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
