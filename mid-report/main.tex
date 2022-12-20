@@ -183,7 +183,18 @@ to the distonicity. Low $|f_5|$ value might be indication of symmetric scales
 such as wholetone, hexatonic and octatonic scales.
 \\\\
 One last interesting usage of DFT is analyzing the common tones between two set
-classes.
+classes. According to Yst, "A well-known result from analysis, 
+the convolution theorem, states that cross-correlation is to 
+multiplying Fourier magnitudes and subtracting Fourier phases." 
+We can calculate the common tones between two pitch set classes with
+the following formula:
+\[\frac{1}{12}\sum_{n=0}^{11}|f_n(A)||f_n(B)|cos(\phi_n(A)-\phi_n(B))\]
+From discussion above, we know common tones shows a voice leading distance
+which means harmonic closeness. This agains shows the magnitude of the 
+distance in the phase space for these components gives a good indication
+of common tones function. By looking at the phase difference and common
+tone approximation, we can also find which scale contributes most to the 
+common tones og two pitch set classes.
 \begin{thebibliography}{9}
 
 \bibitem{Temperley}
