@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1671479477 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/mid-report/main.tex" "main.pdf" "main" 1671479479
-  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/mid-report/main.tex" 1671479475 10623 1e038f4074cb6481ecc9c019a586d01e ""
+["pdflatex"] 1671519865 "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/mid-report/main.tex" "main.pdf" "main" 1671519867
+  "/Users/carsonzhang/Desktop/F22/THEORY407/THEORY407-notes/mid-report/main.tex" 1671519865 11536 585c7781fc973d8b8cdefa1e28423609 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc" 1638997615 2697 c0e4acf9af2683eef1d80f88a94044c0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1640468671 2914 8283dfc24eaf1964346f843d7605c2b0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -217,9 +217,9 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1663610703 2826442 e413571ada45b9d75fac65637d910250 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "images//ph_s.png" 1671428979 774046 1f55224353ca150694e5c8a59a1c0523 ""
-  "main.aux" 1671479478 1148 f12e61d2cab40abc54324961c789d38d "pdflatex"
-  "main.out" 1671479478 234 9a3d0bf5e441d66a3a0684de4f849fbc "pdflatex"
-  "main.tex" 1671479475 10623 1e038f4074cb6481ecc9c019a586d01e ""
+  "main.aux" 1671519867 1148 f12e61d2cab40abc54324961c789d38d "pdflatex"
+  "main.out" 1671519867 234 9a3d0bf5e441d66a3a0684de4f849fbc "pdflatex"
+  "main.tex" 1671519865 11536 585c7781fc973d8b8cdefa1e28423609 ""
   "report.cls" 1669935589 3328 e10a08e7a4646d4fa57cabaa67488042 ""
   (generated)
   "main.aux"
