@@ -1,4 +1,4 @@
-\LoadClass[12pt,letterpaper]{article}
+\documentclass[12pt]{report}
 \RequirePackage{palatino}
 \RequirePackage{verbatim}
 \RequirePackage{amsmath,amsfonts,amsthm,amssymb,multirow,xcolor}
@@ -207,4 +207,20 @@ is the "wormhole" effect. Which is simply apply analysis in two phase spaces.
 \end{itemize}
 \paragraph*{Will Read:}
 Isaacson's The Interval Angle
+\section*{Segmentation task}
+Segmentation is a cognitive process that "selects structually significant 
+intervallic relations" according to Hasty. The process itself involes with 
+decisions based on multiple aspect/"domains" of music properties such as
+dynamic, timbre, set class etc. There are two ways to do segmentation task using 
+computers:
+\begin{enumerate}
+    \item \textbf{Bottom-up}: Start from the smallest unit of each domain and write 
+    scripts for them. But difficulties occurs in defining herustics for each domain such 
+    as searching for "strongest" set class in given phrase.
+    \item \textbf{Machine Learning}: Build a machine learning model 
+    that can learn from the data and make segmentation decisions. But it is
+    difficult to find a proper training set and the model itself is hard to
+    define since the task of segmentation can be hard to define.
+\end{enumerate}
+
 \end{document}
