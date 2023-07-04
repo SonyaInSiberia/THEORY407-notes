@@ -222,5 +222,52 @@ computers:
     difficult to find a proper training set and the model itself is hard to
     define since the task of segmentation can be hard to define.
 \end{enumerate}
+\subsection*{Bottom-up}
+We can follow what was written in the Hasty's \textit{Segmentation and Process in Post-Tonal Music}
+and start the segmentation process with a list of properties 
+of different \textbf{domains} such as timbre, dynamic, intervalllic associations (\emph{set class})
+etc.\ and then develope a logic that puts these properties in a kind of hierarchy
+and then make decisions based on the hierarchy. For example, we can first 
+we can list out the properties of each note in the music waiting
+for segmentation, and group them up according to each property.
+Then gradually change the grouping by searching for notes that
+have share more than 1 common \textbf{domain}\\\\
+An advantage of this method is the whole logic requires no 
+prior data since we can test out the logic with only a few 
+midi sequence transcribed by human. The \textit{\textbf{domains}}
+can be modulized into functions that outputs each note's specific
+property.
+However, the logic itself can be hard to define and there are
+a lot of scrutinies needed for the logic itself since it is a fixed
+set of logics that mimic a cognitive process.
 
+\subsection*{Machine Learning Model}
+The whole thing can be viewed as a black box that do the same 
+thing written in the bottom-up method -- grouping notes to 
+reveal hidden structures. The advantage of this method is that 
+the complex decision making process is done by a black box, which 
+can be a neural network or a decision tree. This saves a lot of 
+search into modulation of the logic. It can also handle a larger 
+sequence/music.\\\\
+However, there are two major challange for this method:
+\begin{enumerate}
+    \item \textbf{Training Set}: The training set can be very hard to find since
+    we require the information of all domains defined by us is 
+    embeded in them, let alone it will require a certain amount of
+    data to start the training process.
+    \item \textbf{Model}: The model itself is hard to define since the 
+    task of segmentation is hard to define. We can only use a 
+    small set of music that is segmented by human as the training set.
+\end{enumerate}
+\subsection*{Questions}
+\begin{enumerate}
+    \item In the last paragraph of the paper, Hasty concluded 
+    that "Until we know eough about the nature of the structural
+    formation in this music to be able to take more for granted
+    , there seems to be no way of avoiding this difficulty." is 
+    there any new development in this field?
+    \item One of the biggest chllange for now is wirtting a 
+    \textit{set-class finder} that can find the set class 
+    of a given set of pitches. Any paper on formulizing this process?
+\end{enumerate}
 \end{document}
