@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.7)  5 JUL 2023 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.7)  26 SEP 2023 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/carsonzhang/Desktop/W23/Theory 407/THEORY407-notes/meeting/note.tex"
-(/Users/carsonzhang/Desktop/W23/Theory 407/THEORY407-notes/meeting/note.tex
+**/Users/carsonzhang/Documents/Projects/THEORY407-notes/meeting/note.tex
+(/Users/carsonzhang/Documents/Projects/THEORY407-notes/meeting/note.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -295,8 +295,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip58
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 31.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -306,24 +310,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./note.aux)
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -377,7 +381,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 31.
 (./note.out) (./note.out)
 \@outlinefile=\write3
 \openout3 = `note.out'.
@@ -406,42 +410,47 @@ Overfull \hbox (28.39188pt too wide) detected at line 3
 \OT1/ppl/m/n/12 2022-11-27 
  []
 
+
+Overfull \hbox (28.39188pt too wide) detected at line 4
+\OT1/ppl/m/n/12 2023-09-25 
+ []
+
 )
 \tf@toc=\write4
 \openout4 = `note.toc'.
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 77.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 78.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (8.59958pt too wide) in paragraph at lines 70--78
+Overfull \hbox (8.59958pt too wide) in paragraph at lines 71--79
 \OT1/ppl/m/n/12 Link to a playable score:[]$\OT1/pcr/m/n/12 https : / / musescore . com / user / 4887176 / scores / 6403822$[] 
  []
 
 [3]
-<./images//Tymoczko_1.png, id=55, 976.64874pt x 509.905pt>
+<./images//Tymoczko_1.png, id=60, 976.64874pt x 509.905pt>
 File: ./images//Tymoczko_1.png Graphic file (type png)
 <use ./images//Tymoczko_1.png>
-Package pdftex.def Info: ./images//Tymoczko_1.png  used on input line 115.
+Package pdftex.def Info: ./images//Tymoczko_1.png  used on input line 116.
 (pdftex.def)             Requested size: 488.32318pt x 254.95187pt.
 
-Overfull \hbox (18.56816pt too wide) in paragraph at lines 115--116
+Overfull \hbox (18.56816pt too wide) in paragraph at lines 116--117
 [][] 
  []
 
-<./images//Tymoczko_2.png, id=57, 940.51375pt x 638.385pt>
+<./images//Tymoczko_2.png, id=62, 940.51375pt x 638.385pt>
 File: ./images//Tymoczko_2.png Graphic file (type png)
 <use ./images//Tymoczko_2.png>
-Package pdftex.def Info: ./images//Tymoczko_2.png  used on input line 125.
+Package pdftex.def Info: ./images//Tymoczko_2.png  used on input line 126.
 (pdftex.def)             Requested size: 470.25572pt x 319.19171pt.
 
-Overfull \hbox (0.5007pt too wide) in paragraph at lines 125--126
+Overfull \hbox (0.5007pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
@@ -449,32 +458,39 @@ Overfull \hbox (0.5007pt too wide) in paragraph at lines 125--126
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <./images//Tymoczko_1.png>] [5 <./images//Tymoczko_2.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 226--243
+Underfull \hbox (badness 10000) in paragraph at lines 227--244
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 245--253
+Underfull \hbox (badness 10000) in paragraph at lines 246--254
 
  []
 
-[8] (./note.aux)
+[8] [9] (./note.bbl [10]
+Underfull \hbox (badness 2409) in paragraph at lines 14--17
+[]\OT1/ppl/m/n/12 MusicBERT: Sym-bolic Mu-sic Un-der-stand-ing with Large-Scale Pre-Training ---
+ []
+
+) [11
+
+] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: 40DB8A52BF183B9375031F93F7B8E5EC;111.
+(rerunfilecheck)             Checksum: 763C7E6FC5AB5085DA7B07BA8D7E3270;148.
  ) 
 Here is how much of TeX's memory you used:
- 13710 strings out of 476025
- 232563 string characters out of 5790018
- 1858388 words of memory out of 5000000
- 33918 multiletter control sequences out of 15000+600000
+ 13842 strings out of 476025
+ 234412 string characters out of 5790018
+ 1860388 words of memory out of 5000000
+ 34023 multiletter control sequences out of 15000+600000
  528269 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,592b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,586b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on note.pdf (8 pages, 901213 bytes).
+Output written on note.pdf (11 pages, 910849 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 35 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

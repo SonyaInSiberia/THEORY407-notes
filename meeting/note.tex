@@ -6,6 +6,7 @@
 \RequirePackage{graphicx}
 \RequirePackage[useregional]{datetime2}
 \RequirePackage{hyperref}
+\RequirePackage{cite}
 \graphicspath{ {images/} }
 %===================================================
 \renewcommand{\maketitle}{
@@ -270,4 +271,69 @@ However, there are two major challange for this method:
     \textit{set-class finder} that can find the set class 
     of a given set of pitches. Any paper on formulizing this process?
 \end{enumerate}
+
+\section*{\datesec{2023-9-25}{}}
+\section*{Representation and Evaluation Metrics}
+\subsection*{Representation}
+The current representation for Symbolic Music Generation deep leanring models 
+involve with two major types\cite{survey}: \textbf{piano-roll}\cite{pianoroll}
+and \textbf{Event-based}\cite{MusBERT}. Piano-roll is a relatively easy way to
+represent symbolic score (specifically for piano) since it is just a 2D matrix
+with dimension p*t where p is the number of pitches and t is the number of time
+steps. Event based representation contains more information in general due to 
+MIDI's nature. A \textit{token} can be a combination of information including
+pitch, duration, velocity, bar, tempo, and even instrument. However, all of them
+do not contain \textbf{interval information and things that can be infered from it.}
+Chuan et al. drew inspiration from tonnetz \cite{AAAI_tonnetz} allowing pitch 
+from $C_0$ to $C_8$ to be represented in a 12x24 matrix, with pithes in rows in 
+a circle of fifth relation. However, it lacks the the chordal quality in the 
+triangle representation for triads. Ayzenberg et al. proposed a \textit{chordal
+and pitch embedding} method drawing the mathmatical relation between pitch and 
+chord in the original tonnetz and mapped pitches in a vector space where 
+the distance between "strongly" related pitches closer to that of "weakly" related.
+\paragraph*{Quetions}
+\begin{enumerate}
+    \item How to put both vertical and horizontal interval information into 
+    the representation?
+    \item Quick ways to crudely segment the input, mark repetitions and other
+    important structural information?
+\end{enumerate}
+\subsection*{Evaluation Metrics}
+Most of the evaluation metric for generative deep learning model is 
+subjective evalution with human test and taggings. But these are too
+time consuming and not scalable. So some has also developed objective 
+metrics that only utilize math and statistical model for analysis.
+The main idea of the objective measurement is to compare
+the generated results with \href{https://towardsdatascience.com/how-to-evaluate-text-generation-models-metrics-for-automatic-evaluation-of-nlp-models-e1c251b04ec1}
+{the ground truth}. As for music generation, the current popular evaluation metrics 
+can be divided into two categoies\cite{survey}: \textbf{rule-based} 
+and \textbf{distribution-based}. Rule-based metrics are based on
+some music-relavent rules such as \textit{harmony progression} and
+\textit{melodic contour}. Yang et al.\cite{yang} propsoed a 
+similarity comparison between generated results and training dataset.
+The metric first select some simple musical elements such as \textit{pitch count, pitch 
+class transition matrix} as "features", extrating from both datasets.
+Then compute the overlapping area and Kullback-Leibler divergence between
+two distribution. The metric is simple and computationally efficient, but
+it is not very musically meaningful since the features are too simple to 
+show any musical meaning. Another limitation of the metric is that it
+requires requires full access of the training dataset, which is not usually
+very accessible due to quality of the dataset and permission issues from the
+author. So here are two main issue to target for the evaluation metrics:
+
+\paragraph*{Question}
+\begin{enumerate}
+    \item How to improve features?
+    \item How to make the current metric less dataset dependent?
+    \item Besides instantaneous and continous interval analysis,
+    structural analysis can also be very important, is there a 
+    rule-based metric that can perform such automatical analysis?
+\end{enumerate}
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{reference}
 \end{document}
+

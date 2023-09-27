@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{survey}
+Shulei Ji, Xinyu Yang, and Jing Luo.
+\newblock A survey on deep learning for symbolic music generation: Representations, algorithms, evaluations, and challenges.
+\newblock {\em ACM Comput. Surv.}, 56(1), aug 2023.
+
+\bibitem{pianoroll}
+Luca Angioloni, Tijn Borghuis, Lorenzo Brusci, and Paolo Frasconi.
+\newblock Conlon: A pseudo-song generator based on a new pianoroll, wasserstein autoencoders, and optimal interpolations.
+\newblock 10 2020.
+
+\bibitem{MusBERT}
+{M}usic{B}{E}{R}{T}: {S}ymbolic {M}usic {U}nderstanding with {L}arge-{S}cale {P}re-{T}raining --- arxiv.org.
+\newblock \url{https://arxiv.org/abs/2106.05630}.
+\newblock [Accessed 25-09-2023].
+
+\bibitem{AAAI_tonnetz}
+Ching-Hua Chuan and Dorien Herremans.
+\newblock Modeling temporal tonal relations in polyphonic music through deep networks with a novel image-based representation.
+\newblock In {\em Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence and Thirtieth Innovative Applications of Artificial Intelligence Conference and Eighth AAAI Symposium on Educational Advances in Artificial Intelligence}, AAAI'18/IAAI'18/EAAI'18. AAAI Press, 2018.
+
+\bibitem{yang}
+Li-Chia Yang and Alexander Lerch.
+\newblock On the evaluation of generative models in music.
+\newblock {\em Neural Comput. Appl.}, 32(9):4773–4784, may 2020.
+
+\end{thebibliography}

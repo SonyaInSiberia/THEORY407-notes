@@ -1,8 +1,8 @@
-PWD /Users/carsonzhang/Desktop/W23/Theory 407/THEORY407-notes/meeting
+PWD /Users/carsonzhang/Documents/Projects/THEORY407-notes/meeting
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/carsonzhang/Desktop/W23/Theory 407/THEORY407-notes/meeting/note.tex
+INPUT /Users/carsonzhang/Documents/Projects/THEORY407-notes/meeting/note.tex
 OUTPUT note.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
@@ -604,6 +604,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -736,6 +747,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplbi7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplbi7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
+INPUT ./note.bbl
+INPUT note.bbl
+INPUT ./note.bbl
+INPUT note.bbl
 INPUT note.aux
 INPUT ./note.out
 INPUT ./note.out
